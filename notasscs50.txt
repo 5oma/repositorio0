@@ -1,0 +1,130 @@
+Saas
+Flask
+SQL
+API
+JavaSript
+DJango
+Testing, DevOps
+Continous integration and development
+Security
+
+
+Git
+
+Keeping track of the code changes. 
+Syhchronizes code beetwen people. 
+Testing without loosing the original
+Reverting to some point in history. 
+
+Github
+
+Now, commands... 
+
+git clone <url> 
+
+Descarga el repositorio en nuestra máquina local. 
+
+
+(Puedes usar los comandos de terminal usuales, como)
+
+cd Movernos a un directorio
+ls mostrar carpetas en directorio actual
+
+Pero, veamos otro... 
+
+Touch, para crear archivos o fólders. 
+
+
+Ahora, pasemos a uno importante de git
+
+git add <filename>
+
+Pide que se cree una copia del archivo para trackearla.
+
+git commit -m "message"
+
+Toma una instantánea del repositorio y sálvala. 
+
+El -m "message" nos ayuda a guardar un mensaje sobre la naturaleza del cambio en el código, para que puedas buscar después por mensajes que te dejaste a ti mismo o al equipo. 
+
+
+git status 
+
+Te dice lo que está pasando en tu repositorio
+
+
+git push
+
+Sube nuestros cambios al repositorio en github
+
+
+git pull
+
+Cuando alguien en nuestro equipo ha hecho un nuevo push, qué tal si queremos descargarlo. Para ello, usamos git pull. Del repositorio en el servidor a nuestra máquina local. 
+
+
+Merge conflicts
+
+Muchas veces, git manejará los merges automáticamente, pero otras veces arrojará merge conflicts. 
+
+
+Normalmente, lo que hacemos es resolver el conflicto y hacer un commit con los resultados. 
+
+Cuando nos metemos al file en conflicto
+
+se ve nuestro código entre 
+
+<<<<<< Head
+code
+
+y el código ajeno como 
+
+=======
+other code
+>>>>>>> 40635896783408730 
+
+El número del conflicting commit.
+
+Lo que hacemos es modificar para que el código quede en uno sólo, y ya podemos realizar el commit. 
+
+
+
+git log
+
+Este comando nos muestra una historia del repositorio con todos los commit
+
+
+git reset
+
+Con este comando reseteamos el repositorio. Hay dos formas, regresarlo a un commit específico con el hash de la siguiente forma: 
+
+git reset --hard <commit hash>
+
+
+Y el de resetear hasta el origen o master repositorio con: 
+
+git reset --hard <origin/master>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
