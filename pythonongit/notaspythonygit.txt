@@ -1,0 +1,1 @@
+Aprendiendo a vincular python con git en https://realpython.com/python-git-github-intro/
