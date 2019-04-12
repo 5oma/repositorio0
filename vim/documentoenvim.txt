@@ -1,1 +1,3 @@
 Entrando a la primer nota en vim que mandaremos a nuestro repositorio. 
+Esta es una modificación desde github. Si la estamos observando
+en nuestra máquina local quiere decir que ya manejamos en dos direcciones github. 
